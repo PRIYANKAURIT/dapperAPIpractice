@@ -8,7 +8,7 @@ namespace dapperAPIpractice.Model
     {                   
             [Key]
             public int id { get; set; }
-            public string ename { get; set; }
+            public string ?ename { get; set; }
             public double salary { get; set; }
         
     }
